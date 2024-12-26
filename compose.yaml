@@ -1,0 +1,6 @@
+﻿services:
+  lc3:
+    image: lc3
+    build:
+      context: .
+      dockerfile: LC3/Dockerfile
